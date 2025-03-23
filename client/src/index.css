@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Route path animations and styling */
+.route-path-animation {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: route-dash 1.5s ease-in-out forwards;
+}
+
+@keyframes route-dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Custom leaflet marker styles */
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+/* Leaflet popup customization */
+.leaflet-popup-content-wrapper {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+}
+
+/* HERE Maps customization */
+.H_ib_content {
+  margin: 0;
+  padding: 0;
+}
+
+.H_ib_body {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.H_ib_close {
+  display: none;
+}
+
+.H_ib_tail {
+  display: none;
+}

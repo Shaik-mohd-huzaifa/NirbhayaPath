@@ -1,0 +1,13 @@
+src/pages/AddProduct.tsx(13,28): error TS2307: Cannot find module '@progress/kendo-react-upload' or its corresponding type declarations.
+src/pages/Analytics.tsx(21,27): error TS2307: Cannot find module '@progress/kendo-react-pdf' or its corresponding type declarations.
+src/pages/Analytics.tsx(26,40): error TS2307: Cannot find module '@progress/kendo-react-charts/dist/es/chart/series-items/index' or its corresponding type declarations.
+src/pages/Analytics.tsx(110,30): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+src/pages/Analytics.tsx(418,15): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(props: TileLayoutProps): TileLayout', gave the following error.
+    Type '{ columns: number; rowHeight: number; gaps: { rows: number; columns: number; }; items: { col: number; colSpan: number; rowSpan: number; row: number; header: string; body: Element; }[]; resizable: boolean; reorderable: boolean; }' is not assignable to type 'IntrinsicAttributes & IntrinsicClassAttributes<TileLayout> & Pick<Readonly<TileLayoutProps>, keyof TileLayoutProps> & Pick<...> & Pick<...>'.
+      Property 'gaps' does not exist on type 'IntrinsicAttributes & IntrinsicClassAttributes<TileLayout> & Pick<Readonly<TileLayoutProps>, keyof TileLayoutProps> & Pick<...> & Pick<...>'. Did you mean 'gap'?
+  Overload 2 of 2, '(props: TileLayoutProps, context: any): TileLayout', gave the following error.
+    Type '{ columns: number; rowHeight: number; gaps: { rows: number; columns: number; }; items: { col: number; colSpan: number; rowSpan: number; row: number; header: string; body: Element; }[]; resizable: boolean; reorderable: boolean; }' is not assignable to type 'IntrinsicAttributes & IntrinsicClassAttributes<TileLayout> & Pick<Readonly<TileLayoutProps>, keyof TileLayoutProps> & Pick<...> & Pick<...>'.
+      Property 'gaps' does not exist on type 'IntrinsicAttributes & IntrinsicClassAttributes<TileLayout> & Pick<Readonly<TileLayoutProps>, keyof TileLayoutProps> & Pick<...> & Pick<...>'. Did you mean 'gap'?
+src/pages/Products.tsx(26,25): error TS2307: Cannot find module '@progress/kendo-react-tooltip' or its corresponding type declarations.
+src/pages/Products.tsx(28,3): error TS2724: '"@progress/kendo-data-query"' has no exported member named 'Filter'. Did you mean 'filterBy'?

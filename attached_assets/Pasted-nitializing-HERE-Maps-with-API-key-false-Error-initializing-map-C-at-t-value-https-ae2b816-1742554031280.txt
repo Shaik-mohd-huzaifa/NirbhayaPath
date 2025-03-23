@@ -1,0 +1,15 @@
+nitializing HERE Maps with API key: false
+Error initializing map: 
+C {}
+
+at t.value (https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
+Search error: 
+C {}
+message: "H.service.Platform (Argument #0 "apikey" must be specified)"
+stack: "InvalidArgumentError: H.service.Platform (Argument #0 "apikey" must be specified)↵ at new C (https://js.api.here.com/v3/3.1/mapsjs-core.js:39:376)↵ at new X (eval at <anonymous> (https://js.api.here.com/v3/3.1/mapsjs-core.js:72:72), <anonymous>:15:402)↵ at https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/src/components/route/route-search.tsx:83:24↵ at https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/src/components/route/route-search.tsx:123:7↵ at commitHookEffectListMount (https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=89fd2179:16915:34)↵ at commitPassiveMountOnFiber (https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=89fd2179:18156:19)↵ at commitPassiveMountEffects_complete (https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=89fd2179:18129:17)↵ at commitPassiveMountEffects_begin (https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=89fd2179:18119:15)↵ at commitPassiveMountEffects (https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=89fd2179:18109:11)↵ at flushPassiveEffectsImpl (https://ae2b8164-c72f-4771-a9b6-1ff3398760bd-00-1sfysc1n1617n.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-RPCDYKBN.js?v=89fd2179:19490:11)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: Object
