@@ -101,17 +101,13 @@ VITE_HERE_MAPS_API_KEY=     # HERE Maps API key
 
 ## 📸 Screenshots
 
-### Home Page
-![Home Page](Screenshots/Home.png)
+### Main Interface with Route Planning
+![Main Interface](Screenshots/1.png)
+*Main interface showing route planning with multiple transport modes and emergency SOS button*
 
-### Route Search
-![Route Search](Screenshots/RouteSearch.png)
-
-### Route Details
-![Route Details](Screenshots/RouteDetails.png)
-
-### Saathi Request
-![Saathi Request](Screenshots/SaathiRequest.png)
+### Route Details with Safety Information
+![Route Details](Screenshots/2.png)
+*Detailed route information showing safety score, highlights, and past user experiences*
 
 ## 🛠️ Tech Stack
 
